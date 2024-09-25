@@ -2,7 +2,7 @@
 
 int main()
 {
-	int num, evenNum = 0, oddNum = 0;
+	int sumNum, num, evenNum = 0, oddNum = 0;
 
 
 	do
@@ -17,6 +17,8 @@ int main()
 		{
 			oddNum += num;
 		}
+		sumNum += num;
+
 	} while (num != 0);
 	
 	std::cout << "Even: " << evenNum << "\nOdd: " << oddNum;
